@@ -1,4 +1,3 @@
-
 <?php
 session_start(); // Inicia la sesión para obtener los datos del usuario
 
@@ -18,7 +17,7 @@ if (isset($_SESSION['nombre_completo'])) {
     <title>Bienvenida</title>
 </head>
 <body>
-    <h1>Inicio de sesion exitoso,Bienvenido <?php echo htmlspecialchars($nombre_completo);?></h1>
+    <h1>Inicio de sesion exitoso,Bienvenido </h1>
 
     <form action="php/logout.php" method="post">
         <button type="submit">Cerrar sesión</button>

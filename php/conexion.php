@@ -1,6 +1,7 @@
 <?php
 
-    $conexion=mysqli_connect("localhost","root","","db");
+    //$conexion=mysqli_connect("localhost","infocal_alexf","BNbCIriLtSzM","infocal_alex");
+    $conexion=mysqli_connect("localhost","root","info123","db");
     
     /*if($conexion){
         echo 'Conexion con exito a la Base de Datos';

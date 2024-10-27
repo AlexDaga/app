@@ -39,7 +39,7 @@
                     <form action="php/registroUsuario.php" method="POST" class="formulario__register">
                         <h2>Registrarse</h2>
                         <input onkeypress="ValidacionLetras(event)" type="text" placeholder="Nombre" name="nombre_completo" required>
-                        <input onkeypress="ValidacionLetras(event)" type="text" placeholder="Correo Electronico" name="correo" required>
+                        <input type="text" placeholder="Correo Electronico" name="correo" required>
                         <input type="text" placeholder="Usuario" name="usuario" required>
                         <input onkeypress="ValidacionNumeros(event)" type="password" placeholder="Contraseña" name="contrasena" required>
                         <button>Registrarse</button>
